@@ -6458,7 +6458,7 @@ footer .bot {
   align-items: center;
   text-align: center; }
   footer .bot .xyz {
-    margin-top: 1rem; }
+    margin-top: 1.5rem; }
 
 footer .col-sm-2.col-md-4 .list-inline {
   margin-left: -5%;
@@ -6471,10 +6471,11 @@ footer .col-sm-2.col-md-4 .list-inline {
     text-align: center;
     padding-top: 0.6rem;
     border-radius: 50%;
-    margin-top: 1rem;
     opacity: .5; }
 
 @media (min-width: 768px) {
+  footer .bot .xyz {
+    text-align: left; }
   footer .list-inline {
     margin-left: 50%; }
     footer .list-inline .list-inline-item a i:hover {
