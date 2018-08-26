@@ -6549,6 +6549,9 @@ footer .col-sm-2.col-md-4 .list-inline {
   @media (min-width: 768px) {
     .home .abc h3 {
       font-size: 2.75rem; } }
+  @media (max-width: 575.98px) {
+    .home .abc h3 {
+      font-size: 1.4rem; } }
 
 .home .item a {
   text-decoration: none; }
