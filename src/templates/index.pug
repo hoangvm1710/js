@@ -1,0 +1,94 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.home-header
+		.owl-carousel.owl-theme
+			.box
+				img(src="./img/home_slider_1.jpg", alt="")
+				.text
+					.container
+						.row
+							.col-md-7
+								h2 Chúng tôi là FullStack Vietnam
+								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae repellat ab velit praesentium inventore, culpa, ipsam corrupti sequi temporibus error dolores modi nobis vel optio necessitatibus? Adipisci repellat totam sint?
+			.box
+				img(src="./img/home_slider_1.jpg", alt="")
+				.text
+					.container
+						.row
+							.col-md-7
+								h2 Chúng tôi là FullStack Vietnam
+								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae repellat ab velit praesentium inventore, culpa, ipsam corrupti sequi temporibus error dolores modi nobis vel optio necessitatibus? Adipisci repellat totam sint?
+			.box
+				img(src="./img/home_slider_1.jpg", alt="")
+				.text
+					.container
+						.row
+							.col-md-7
+								h2 Chúng tôi là FullStack Vietnam
+								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae repellat ab velit praesentium inventore, culpa, ipsam corrupti sequi temporibus error dolores modi nobis vel optio necessitatibus? Adipisci repellat totam sint?
+	section.home
+		.container
+			.row.abc
+				.col
+					h3 FullStack 
+						span Chuyên nghiệp
+			.row
+				.col-md-4.item
+					a(href="#" title="")
+						figure
+							.blockimg
+								.conmat
+									i.fa.fa-eye
+								img(src="./img/home_service_1.png", alt="")
+							figcaption
+								h3 Trung tâm đào tạo IT chuyên nghiệp
+								time 26/8/2018
+								p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus repudiandae dolores laborum voluptates, ipsam aliquid rerum eaque eligendi dolorum sunt accusamus molestias ipsum quisquam exercitationem ipsa soluta id voluptate!
+					
+				.col-md-4.item
+					a(href="#" title="")
+						figure
+							.blockimg
+								.conmat
+									i.fa.fa-eye
+								img(src="./img/home_service_2.png", alt="")
+							figcaption
+								h3 Trung tâm đào tạo IT chuyên nghiệp
+								time 26/8/2018
+								p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus repudiandae dolores laborum voluptates, ipsam aliquid rerum eaque eligendi dolorum sunt accusamus molestias ipsum quisquam exercitationem ipsa soluta id voluptate!
+					
+
+				.col-md-4.item
+					a(href="#" title="")
+						figure
+							.blockimg
+								.conmat
+									i.fa.fa-eye
+								img(src="./img/home_service_3.png", alt="")
+							figcaption
+								h3 Trung tâm đào tạo IT chuyên nghiệp
+								time 26/8/2018
+								p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus repudiandae dolores laborum voluptates, ipsam aliquid rerum eaque eligendi dolorum sunt accusamus molestias ipsum quisquam exercitationem ipsa soluta id voluptate!
+	section.home-service
+		.container
+			.row
+				.col
+					.owl-carousel.owl-theme
+						- for(x=1;x<10;x++)
+							.item
+								if (x < 7)
+									img(src="./img/clients_"+x+".png", alt="")
+								else
+									img(src="./img/clients_"+(x-3)+".png", alt="")
+
+					
+
+
+
+

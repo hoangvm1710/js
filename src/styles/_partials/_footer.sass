@@ -1,0 +1,77 @@
+footer
+	.top
+		background: #00c4c9
+		padding: 2rem
+	.col-sm-6.col-md-5
+		.box
+			padding-top: 1.5rem
+	.col-sm-6.col-md-4
+		margin-left: -8%
+		.name
+			margin-left: 17%
+		.box1
+			padding-top: 1.5rem
+		li
+			list-style: none
+		i 
+			color: #ffffff
+			opacity: .5
+	p
+		color: #ffffff
+		opacity: .5
+	h5
+		color: #083e64
+	.left
+		margin-left: -8%
+		.box2
+			padding-top: 1.5rem
+		li
+			list-style: none
+		i 
+			color: #ffffff
+			opacity: .5
+	+media-breakpoint-down(xs)
+		.col-sm-6.col-md-5
+			margin-left: 4%
+		.col-sm-6.col-md-4
+			padding-top: 7%
+			.name
+				margin-left: 14%
+	+media-breakpoint-up(md)
+		.col-sm-6.col-md-4
+			.name
+				margin-left: 11%
+		.left
+			margin-left: 0%
+	.bot
+		background: #083e64
+		display: flex
+		justify-content: center
+		align-items: center
+		text-align: center
+		.xyz
+			margin-top: 1rem
+	.col-sm-2.col-md-4
+		.list-inline
+			margin-left: -5%
+			list-style: none
+			.list-inline-item
+				a
+					i
+						width: 30px
+						height: 30px
+						background: #fff
+						color: #083e64
+						text-align: center
+						padding-top: 0.6rem
+						border-radius: 50%
+						margin-top: 1rem
+						opacity: .5
+	+media-breakpoint-up(md)
+		.list-inline
+			margin-left: 50%
+			.list-inline-item
+				a
+					i
+						&:hover
+							opacity: 1 !important
